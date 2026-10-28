@@ -4,12 +4,17 @@ using namespace std;
 
 int main() {
     setlocale(LC_ALL, "ru_RU.UTF-8");
+    int size;
 
-    int mass[10];
-    int size, elements;
 
     cout << "Введите размер массива: ";
     cin >> size;
+    int mass[size];
+
+    if (size <= 0) {
+        cout << "Ошибка. Размер массива должен быть больше нуля." << endl;
+        return 1;
+    }
     if (cin.fail()) {
         cout << "Ошибка. Введите число." << endl;
         return 1;

@@ -6,11 +6,14 @@ int main() {
 
 
     int mass[10];
-    int size, elements;
+    int size;
     int chislo;
 
     cout << "Введите размер массива: ";
     cin >> size;
+    if (size <= 0) {
+        cout << "Ошибка. Размер массива должен быть больше нуля." << endl;
+        return 1;
     if (cin.fail()) {
         cout << "Ошибка. Введите число." << endl;
         return 1;
@@ -27,6 +30,9 @@ int main() {
 
     cout << "Введите число для поиска: ";
     cin >> chislo;
+    if (chislo <= 0) {
+        cout << "Ошибка. Размер массива должен быть больше нуля." << endl;
+        return 1;
     if (cin.fail()) {
         cout << "Ошибка. Введите число." << endl;
         return 1;
