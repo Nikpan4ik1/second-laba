@@ -14,6 +14,7 @@ int main() {
     if (size <= 0) {
         cout << "Ошибка. Размер массива должен быть больше нуля." << endl;
         return 1;
+    }
     if (cin.fail()) {
         cout << "Ошибка. Введите число." << endl;
         return 1;
@@ -33,6 +34,7 @@ int main() {
     if (chislo <= 0) {
         cout << "Ошибка. Размер массива должен быть больше нуля." << endl;
         return 1;
+    }
     if (cin.fail()) {
         cout << "Ошибка. Введите число." << endl;
         return 1;
