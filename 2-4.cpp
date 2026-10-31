@@ -22,7 +22,7 @@ int main(){
     
 
     for ( int i =0; i<size; i++){
-        cout << "Введите число: ";\
+        cout << "Введите число: ";
         if (cin.fail()) {
             cout << "Ошибка. Введите число." << endl;
             return 1;
