@@ -38,12 +38,12 @@ int main() {
             }
         }
     }
-
-    // cout << "Элементы массива: ";
-    // for (int i = 0; i < size; i++) {
-    //     cout << mass[i] <<", " ;
-    // }
-    // cout << ""<< endl;
+    
+    cout << "Элементы массива: ";
+    for (int i = 0; i < size; i++) {
+        cout << mass[i] <<", " ;
+    }
+    cout << ""<< endl;
 
     cout << "Введите число для поиска: ";
     cin >> chislo;

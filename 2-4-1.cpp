@@ -16,7 +16,7 @@ int main() {
     cin >> k;
 
 
-    if (cin.fail() || k <= 0) {
+    if (cin.fail() and k <= 0) {
         cout << "Ошибка ввода. Введите положительное число." << endl;
         return 1;
     }
